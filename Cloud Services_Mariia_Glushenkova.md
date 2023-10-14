@@ -4,7 +4,7 @@
 
 ## Cloud services, OAMK university
 
-## Website for assignments : [Cloud Services](https://tl.oamk.fi/cloudservices/)
+## Website for assignments : https://tl.oamk.fi/cloudservices/
 
    
 
@@ -42,6 +42,10 @@ Thank you, Teemu for the course, it is indeed very interesting ! Learned definit
 
 - Free task L ✅
 
+- Free task F ✅
+
+- Free task O ✅
+
 ---
 
 # 
@@ -52,7 +56,7 @@ Answered questions and implemented Fly.io Paas
 
 ### Fly.io assignment Week 1
 
-- # Getting Started with Django on Render
+- #### Getting Started with Django on Render
   
   ### Create Project Structure
   
@@ -683,22 +687,18 @@ Link to tutorial [Quickstart: Image Analysis 4.0 - Azure AI services | Microsoft
 - Declared VISION_KEY and VISION_ENDPOINT as env variables and ran the app
 
 - Accomplished tutorial for Java and successfuly analyzed my own and sample pictures. Was fun!
-
+  
   ![](/Users/maria/Desktop/Screenshot%202023-10-11%20at%2017.29.10.png)
-
+  
    ![Screenshot 2023-10-11 at 14.25.22.png](/var/folders/7b/f7sp0kps1y91bwjkw62bfx6c0000gn/T/TemporaryItems/NSIRD_screencaptureui_KL6TI5/Screenshot%202023-10-11%20at%2014.25.22.png)
 
 ### Link for Computer Vision task : [- YouTube
 
 ### ](https://youtu.be/tkRGqBGU7nk)
 
-
-
 #### Course Week 5
 
 ##### Robotic Process Automation (RPA) assignment. (Free task L)
-
-
 
 <mark>I would like to go to foobar restaurant menu and download today`s menu automatically.</mark>
 
@@ -734,7 +734,7 @@ await page.evaluate(() => {
       if (element) element.click(); // click on il with specific text
     });
 });
- 
+
   // Save a snapshot of the webpage in MHTML format
   const cdp = await page.target().createCDPSession();
   const { data } = await cdp.send("Page.captureSnapshot", { format: "mhtml" });
@@ -756,10 +756,7 @@ await page.evaluate(() => {
   // Close the browser
   await browser.close();
 })();
-
 ```
-
-
 
 3. Run the script:
 
@@ -778,12 +775,6 @@ Also researched a lil bit on the docs pages about locators, because this info is
 #### Youtube video : [Puppeteer Web Scrapping - YouTube](https://youtu.be/Au_vUw63IZ4)
 
 ---
-
-
-
-
-
-
 
 ## Free  choice assignments
 
@@ -962,6 +953,94 @@ So, the choice between Long Polling and Websockets depends on what you need. Lon
 
 Wildrydes application.
 
+
+
+### Free choice extra assignment bundle F
+
+This is a week 2 replacement assignment, but I have done AI tutorial instead. So this assignment counsts as free choice.
+
+Create a simple website/webapp to Google Firebase:
+
+> - Create a website with dynamic operations to Google Firebase
+> - A static website is not enough. Website must have some server side dynamic operations. For example, a database connections (to Firebase or elsewhere) or some other processing in the server side (cloud) like fetching and processing data from some other cloud service API(s)
+
+I already have a project with API from movieDB, and this assignment ideally fits to my needs as I wanted to develop a Firebase authentication long time ago.
+
+![](/Users/maria/Library/Application%20Support/marktext/images/2023-10-12-18-07-02-image.png)
+
+Set up default configuration and the project is ready.
+
+When I am signing up, here is a response from firebase:
+
+![](/Users/maria/Library/Application%20Support/marktext/images/2023-10-12-18-38-48-image.png)
+
+I can see that in the Firebase auth too.
+
+![](/Users/maria/Library/Application%20Support/marktext/images/2023-10-12-18-39-48-image.png)
+
+When I click component Logout, console shows "Logged out successfully."
+
+![](/Users/maria/Library/Application%20Support/marktext/images/2023-10-12-18-48-19-image.png)
+
+1. **Firebase Setup**: Integrated Firebase into your React application. This involves creating a Firebase project on the Firebase Console and configuring Firebase SDK in your React app.
+
+2. **User Authentication**: Implemented user authentication, allowing users to sign up, log in, and log out using their Google accounts. Firebase provides user management and handles authentication securely.
+   
+   ##### Materials which were used :
+   
+   - [How to Use Firebase Authentication in a React App](https://www.freecodecamp.org/news/use-firebase-authentication-in-a-react-app/)
+   
+   - [Легко добавьте вход в свое веб-приложение с помощью FirebaseUI.](https://firebase.google.com/docs/auth/web/firebaseui?hl=ru)
+   
+   #### Link to GitHub repo : [GitHub - maguitaria/movieland: React Webap with IMDB movies API. Made for solely React development. Planned enhancements for backend, authentication etc.](https://github.com/maguitaria/movieland)
+   
+   ##### Link to Youtube : [New FIrebase auth video](https://youtu.be/HJBk5c-ioZo)
+
 ---
 
-#### 
+### Free choice extra assignment bundle O
+
+Implement Github Actions to automate something useful
+
+> - Check this info page: [GitHub Actions documentation - GitHub Docs](https://docs.github.com/en/actions)
+> - Use your own application or fork/clone some existing repository and use Github Actions to automate something like testing, building, deployment, etc.
+
+![](/Users/maria/Library/Application%20Support/marktext/images/2023-10-13-16-19-20-image.png)
+
+After hours of trying with setting up my secret PAT tocen for Github access, it started to do it!! SO HAPPY. Now the Github pages are deployed utomatically wiith every push to my repo
+
+https://medium.com/@bennirus/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
+
+##### GitHub Actions Workflow: Build and Deploy
+
+This is a GitHub Actions workflow that automates the process of building and deploying your React application from the `main` branch to the `gh-pages` branch. This allows you to keep your GitHub Pages up to date with the latest changes in your application.
+
+#### Workflow Description
+
+This workflow runs on the `ubuntu-latest` virtual machine and consists of several steps to achieve the build and deployment process.
+
+###### Steps:
+
+1. **Checkout Code**: This step checks out the latest code from the repository using the `actions/checkout` action.
+
+2. **Set up Node.js**: It sets up Node.js with version 14 using the `actions/setup-node` action.
+
+3. **Install Dependencies**: This step installs the required dependencies for your project using `npm install`.
+
+4. **Build**: It triggers the build process for your React application using `npm run build`.
+
+5. **Pull Latest Changes from gh-pages**: This step is responsible for pulling the latest changes from the `gh-pages` branch. It configures your Git user information and sets the pull strategy to merge unrelated histories. Then, it checks out the `gh-pages` branch and pulls the changes from the remote repository, allowing unrelated histories.
+
+6. **Deploy to gh-pages**: After pulling the changes, this step adds all changes to the Git repository, commits the changes with a descriptive message, and pushes them to the `gh-pages` branch.
+
+###### Usage:
+
+To use this workflow, you need to create a YAML file (e.g., `main.yml`) in your repository's `.github/workflows` directory and paste the workflow code into the file.
+
+##### Link to GIthub repo with actions workflow : [GitHub - maguitaria/movieland: React Webap with IMDB movies API. Made for solely React development. Planned enhancements for backend, authentication etc.](https://github.com/maguitaria/movieland)
+
+#### Youtube video: [- YouTube](https://youtu.be/LyzV9YVZhRc)
+
+---
+
+## End of a diary
