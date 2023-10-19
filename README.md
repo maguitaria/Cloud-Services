@@ -1,10 +1,6 @@
 # Cloud-Services
-This is a repo for my documentation on CLoud Services Course. Accomplished A LOT of tasks and recorded 5 Youtube videos with detailed description of my implementation.
-# Cloud Services Course README
-
-## Course Description
-
-This README provides an overview of the Cloud Services course offered by Oulu University of Applied Sciences (OAMK), which was completed as the second course in the curriculum. In this course, students were exposed to various aspects of cloud computing and cloud services, covering a wide range of topics and practical hands-on experiences.
+This is a repo for my documentation on Cloud Services Course. Accomplished A LOT of tasks and recorded 5 Youtube videos with detailed description of my implementation. This is my second year in OAMK and one of the **most interesting courses** which I have done.
+In this course, students were exposed to various aspects of cloud computing and cloud services, covering a wide range of topics and practical hands-on experiences.
 
 ## Major Tasks
 
