@@ -4,6 +4,8 @@
 
 ## Cloud services, OAMK university
 
+##### Readme version of this diary (better because it is original version): https://github.com/maguitaria/Cloud-Services/blob/main/Cloud%20Services_Mariia_Glushenkova.md
+
 ## Website for assignments : https://tl.oamk.fi/cloudservices/
 
    
@@ -953,8 +955,6 @@ So, the choice between Long Polling and Websockets depends on what you need. Lon
 
 Wildrydes application.
 
-
-
 ### Free choice extra assignment bundle F
 
 This is a week 2 replacement assignment, but I have done AI tutorial instead. So this assignment counsts as free choice.
@@ -994,7 +994,7 @@ When I click component Logout, console shows "Logged out successfully."
    
    #### Link to GitHub repo : [GitHub - maguitaria/movieland: React Webap with IMDB movies API. Made for solely React development. Planned enhancements for backend, authentication etc.](https://github.com/maguitaria/movieland)
    
-   ##### Link to Youtube : [New FIrebase auth video](https://youtu.be/HJBk5c-ioZo)
+   ##### Link to Youtube : [New Firebase auth video]([Firebase authentication in movie app with React - YouTube](https://youtu.be/f_dNnvcwoUo))
 
 ---
 
