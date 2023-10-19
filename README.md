@@ -17,17 +17,15 @@ The Cloud Services course at OAMK was designed to equip students with the knowle
 
 ## YouTube Videos
 
-See my implementation of assignments and demonstration:
+See my personal videos of  assignments and demonstration:
 
 1. [**Deploy to AWS with S3 Bucket**]([https://www.youtube.com/watch?v=yourvideo1](https://youtu.be/LWk9k-Etm8Q)): This video covered the basics of AWS deployment and walked through the process of launching an application on AWS.
-
+<img width="675" alt="Screenshot 2023-10-19 at 12 36 29" src="https://github.com/maguitaria/Cloud-Services/assets/112544437/993a8a0b-1201-4bce-a904-b82cfc3c89a9">
 2.  [**GitHub deployment Automation**](https://youtu.be/LyzV9YVZhRc): Description of one of my branch CI pipelines.
 
 3. [**Web Scraping with Puppeteer**](https://youtu.be/Au_vUw63IZ4): An informative video demonstrating the power of Puppeteer in automating web scraping tasks.
-
-4. [**IaaS/PaaS/SaaS in Cloud Computing**](https://www.youtube.com/watch?v=yourvideo4): This video discussed the distinctions between IaaS, PaaS, and SaaS and showcased real-world examples of each.
-5. [**Firebase authentication on my Movie app**](https://youtu.be/f_dNnvcwoUo): Implementation of Firebase auth/ signup project.
-6. [**AI in Microsoft Azure: Computer vision picture analysis**](https://youtu.be/tkRGqBGU7nk) :AI experimenting in Microsoft Azure with free 200$ package for students.
+4. [**Firebase authentication on my Movie app**](https://youtu.be/f_dNnvcwoUo): Implementation of Firebase auth/ signup project.
+5. [**AI in Microsoft Azure: Computer vision picture analysis**](https://youtu.be/tkRGqBGU7nk) :AI experimenting in Microsoft Azure with free 200$ package for students.
 
 ## Course Materials
 
