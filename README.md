@@ -21,11 +21,19 @@ See my personal videos of  assignments and demonstration:
 
 1. [**Deploy to AWS with S3 Bucket**]([https://www.youtube.com/watch?v=yourvideo1](https://youtu.be/LWk9k-Etm8Q)): This video covered the basics of AWS deployment and walked through the process of launching an application on AWS.
 <img width="675" alt="Screenshot 2023-10-19 at 12 36 29" src="https://github.com/maguitaria/Cloud-Services/assets/112544437/993a8a0b-1201-4bce-a904-b82cfc3c89a9">
+
 2.  [**GitHub deployment Automation**](https://youtu.be/LyzV9YVZhRc): Description of one of my branch CI pipelines.
+<img width="669" alt="Screenshot 2023-10-19 at 12 50 46" src="https://github.com/maguitaria/Cloud-Services/assets/112544437/40409d21-76ab-45ac-81bc-aac31b1431d0">
 
 3. [**Web Scraping with Puppeteer**](https://youtu.be/Au_vUw63IZ4): An informative video demonstrating the power of Puppeteer in automating web scraping tasks.
-4. [**Firebase authentication on my Movie app**](https://youtu.be/f_dNnvcwoUo): Implementation of Firebase auth/ signup project.
-5. [**AI in Microsoft Azure: Computer vision picture analysis**](https://youtu.be/tkRGqBGU7nk) :AI experimenting in Microsoft Azure with free 200$ package for students.
+   <img width="672" alt="Screenshot 2023-10-19 at 12 51 18" src="https://github.com/maguitaria/Cloud-Services/assets/112544437/3f65d9bf-527e-4e20-be59-7b0d4e7d76fd">
+
+5. [**Firebase authentication on my Movie app**](https://youtu.be/f_dNnvcwoUo): Implementation of Firebase auth/ signup project.
+<img width="652" alt="Screenshot 2023-10-19 at 12 51 54" src="https://github.com/maguitaria/Cloud-Services/assets/112544437/c78d08d3-16ae-4027-8132-e8d450883c2e">
+  
+7. [**AI in Microsoft Azure: Computer vision picture analysis**](https://youtu.be/tkRGqBGU7nk) :AI experimenting in Microsoft Azure with free 200$ package for students.
+ <img width="654" alt="Screenshot 2023-10-19 at 12 52 35" src="https://github.com/maguitaria/Cloud-Services/assets/112544437/b139d34d-d241-465a-a1ff-0835e4bbc485">
+
 
 ## Course Materials
 
